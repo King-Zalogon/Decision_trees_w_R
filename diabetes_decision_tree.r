@@ -14,7 +14,6 @@ library(caret)
 library(pROC)
 
 
-
 # Convierto las variables categóricas "gender" y "smoking_history" a factores
 datos_diabetes$gender <- as.factor(datos_diabetes$gender)
 datos_diabetes$smoking_history <- as.factor(datos_diabetes$smoking_history)
